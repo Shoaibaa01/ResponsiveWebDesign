@@ -1,0 +1,122 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1581610186406-5f6e9f9edbc1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+
+}
+
+
+.navbar {
+    text-align: right;
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-right: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: text-decoration 0.15s, opacity 0.15s;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: 0.5;
+}
+
+#title, #description {
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 800px;
+    padding-left: 50px;
+    
+}
+
+input[type="text"], [type="email"], [type="number"], select {
+background-color: rgba(0, 0, 0, 0.6);
+border: none;
+color: white;
+margin-top: 5px;
+padding-left: 10px;
+height: 40px;
+width: 700px;
+border-radius: 2px;
+}
+
+input[type="number"] {
+    appearance: textfield; 
+}
+
+
+textarea {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 100px;
+width: 600px;
+padding-left: 10px;
+padding-top: 10px;
+
+}
+
+button {
+background-color: rgba(0, 0, 0, 0.6);
+color: white;
+border: none;
+margin-bottom: 20px;
+margin-left: 300px;
+padding: 20px 40px;
+border-radius: 2px;
+cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+@media screen and (max-width: 1000px) {
+.container {
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 1rem;
+    width: 250px;
+    
+}
+
+input[type="text"], [type="email"], [type="number"], select
+{
+    height: 30px;
+    width: 200px;
+}
+
+textarea {
+height: 100px;
+width: 210px;
+
+}
+
+button {
+padding: 15px;
+margin-left: 30px;
+}
+
+
+
+}

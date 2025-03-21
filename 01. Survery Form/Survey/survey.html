@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+      <!-- navbar -->
+      <div class="navbar">
+        <a href="https://github.com/Shoaibaa01" class="github">GitHub</a>
+    </div>
+        
+
+    <h1 id="title">Stress & Anxiety Management Survey</h1>
+
+    <p id="description">
+        I'm collecting real-life ways people manage stress and anxiety. Share yours to help others!
+    </p>
+
+    <!-- FORM  -->
+     <div class="container">
+<form id="survey-form">
+
+
+
+  <label id="name-label">
+    Name 
+    <br>
+<input type="text" id="name" placeholder="John Doe" required>
+<br> <br>
+  </label>
+
+
+  
+  <label id="email-label">
+    Email <br>
+<input type="email"  id="email" placeholder="johndoe@email.com" required>
+  </label>
+  <br> <br>
+
+
+  <label  id="number-label">
+    Age
+    <br> 
+<input type="number" id="number" min="18" max="120" placeholder="must be 18+">
+  </label>
+  <br> <br>
+
+
+
+  <label for="radio">
+    How often do you experience stress or anxiety?
+    <br> 
+<input type="radio" name="checked" value="Rarely" checked> Rarely
+<br>
+<input type="radio" name="checked" value="Sometimes"> Sometimes
+<br>
+<input type="radio" name="checked" value="Often"> Often
+<br>
+<input type="radio" name="checked" value="Always"> Always
+<br>
+  </label>
+  <br> 
+
+
+
+
+  <label for="select">
+    What time of day do you feel most stressed?
+    <br>
+    <select id="dropdown">
+      <option value="" >Select one</option>
+      <option value="1"> Morning</option>
+      <option value="2"> Afternoon</option>
+      <option value="3"> Evening </option>
+      <option value="4">Night</option>
+    </select>
+  </label>
+  <br> <br>
+
+
+
+
+  <label for="checkbox">
+    What helps you manage stress? 
+    <br>
+    <input type="checkbox" value="meditation"> Meditation 
+    <br>
+    <input type="checkbox" value="Exercise"> Exercise
+    <br>
+    <input type="checkbox"  value="Talking to someone"> Talking to someone
+    <br>
+    <input type="checkbox"  value="Journaling"> Journaling
+    <br>
+    <input type="checkbox"  value="Music"> Music
+    <br>
+    <input type="checkbox"  value="Deep Breathing"> Deep Breathing
+    <br>
+    <input type="checkbox"  value="Therapy"> Therapy
+    <br>
+    <input type="checkbox"  value="other"> other
+    <br>
+  </label>
+  <br>
+
+
+
+  
+    <label for="textarea">
+    Describe your most effective stress-relief method:
+    <br>  
+    <textarea placeholder="text goes here..">
+      
+    </textarea>
+
+  </label>
+ 
+  <br> <br>
+</form>
+  <label class="button">
+  <div class="button">
+    <a href="/FreeCodeCamp Responsive Web Design Course - Projects/SURVEY FORM/Thank You!/Thank you.html">
+  <button id="submit">
+Submit Your Survey!
+  </button>
+</a>
+</label>
+</div>
+     </div>
