@@ -32,15 +32,18 @@ a:hover {
 
 .header {
     color: white;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    margin-left: 20px;
     margin-top: 150px;
     font-weight: bolder;
+
 }
 
 .small-text {
     color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: lighter;
+    margin-bottom: -100px;
     
 
 }
@@ -49,6 +52,8 @@ a:hover {
 .button {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
+
     
   }
 
@@ -56,11 +61,13 @@ a:hover {
   button {
     padding: 15px 40px;
     background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     color: white;
     cursor: pointer;
     transition: background-color 0.15s, color 0.15s;
+    padding: 25px;
+    font-size: 1.5rem;
   }
 
   button:hover {
@@ -102,7 +109,7 @@ a:hover {
     
     .header {
         color: white;
-        font-size: 0.9rem;
+        font-size: 1rem;
         text-align: left;
         margin-top: 240px;
         font-weight: bolder;
@@ -110,9 +117,10 @@ a:hover {
     }
     .small-text  {
         color: white;
-        font-size: 12px;
+        font-size: 0.7rem;
         font-weight: lighter;
         text-align: left;
+        margin-bottom: -0;
         
     
     }
@@ -122,6 +130,12 @@ a:hover {
         justify-content: center;
         margin-top: -30px;
         
+      }
+
+      button {
+        padding: 10px 20px;
+        border-radius: 15px;
+        font-size: 1rem;
       }
 
   }
