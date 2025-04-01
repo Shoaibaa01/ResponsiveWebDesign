@@ -22,12 +22,6 @@ While working on this, I faced a few challenges:
 - **Spacing elements** – Getting everything positioned correctly was tricky.  
 - **Responsive design** – Making sure it worked on different screen sizes took time.  
 
-I overcame these challenges through trial and error and by practicing a lot.  
+ 
 
-## How I Built It  
 
-- **I wrote almost all the code myself** – Minimal AI assistance was used for coding.  
-- **I used AI for content** – The text was AI-generated since I wasn’t sure what to write.  
-- **I researched solutions** – When I got stuck, I looked up examples but wrote my own code.  
-
-The code might not be perfect, but I learned a lot while building this project.  
