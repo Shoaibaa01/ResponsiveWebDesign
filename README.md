@@ -17,6 +17,6 @@ Hello, my name is **Shoaib Abdul Aleem**, and this repository contains my projec
 
 ## About Me & This Project  
 
-I am passionate about **frontend development** and love **software engineering**. My goal is to become a skilled frontend developer, and I hope this course helps me build more projects and improve my skills.  
+I am passionate about **frontend development** and love **software engineering**. My goal is to become a skilled web developer, and I hope this course helps me build more projects and improve my skills.  
 
 This journey is just the beginning, and I’m excited to see how far I can go!  
